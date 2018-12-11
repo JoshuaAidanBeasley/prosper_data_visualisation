@@ -1,0 +1,34 @@
+PURPOSE:
+
+This project is basically just practice creating visuals programmatically.
+The dataset I've chosen to work with is loan data from Prosper.
+It contains information on a little over 110,000 loans between 2006 and 2014.
+Main findings were:
+a) income is not a good identifier of what time of year someone will take out a loan
+b) Different types of loans are slightly more popular at different times of the year.
+
+METHODS AND FINDINGS:
+
+Initially my aim was to find trends in the data which could be used to find the best time of year for Prosper to advertise their loans to different income groups. In this area I discovered that genrally every income range followed a similar pattern for borrowing money. People borrow more in the wither months and less in summer. I decided the company could try to target more specific groups and found that more than half of all loans from prosper were for debt consolidation. What's more is that debt consolidation loans followed the same pattern that the overall data was giving me (more loans in winter, less in summer). I decided to examine a few of the other loan Listing Categories and found some trends which may help the marketing team target different groups using a series of small ad campaigns.
+
+FILES:
+
+exploration.ipynb - an initial exploration of loans.csv
+
+Explainitory_report.ipynb - Report of methods and major findings in loans.csv
+
+Explainitory_report.html - html file of Explainitory_report.ipynb
+
+exploration.html - HTML file of exploration.ipynb
+
+slide_deck.slides.html - Slide Show of visuals
+
+slide_deck slides_files - slide files
+
+slide_deck slides.htm - slides
+
+loans.csv - Loan Data from Prosper
+
+Prosper_Loan_Data -Variable_Definitions .pdf - Descriptions of each Column in loans.csv
+
+output_toggle.tpl - used to make slides
